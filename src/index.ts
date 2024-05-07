@@ -9,3 +9,4 @@ export * from './interfaces/search.interface';
 export * from './interfaces/seller.interface';
 export * from './cloudinary-upload';
 export * from './error-handler';
+export * from './gateway-middleware';
