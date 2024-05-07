@@ -22,7 +22,7 @@
   "author": "crunchydeer30",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/crunchydeer30/microservices-course-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
