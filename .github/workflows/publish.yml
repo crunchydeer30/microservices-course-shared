@@ -19,7 +19,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: |
-        echo @crunchydeer30:https://npm.pkg.github.com/crunchydeer30/ > build/.npmrc
+        echo '@crunchydeer30:https://npm.pkg.github.com/crunchydeer30/' > build/.npmrc
         echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> build/.npmrc
       - run: npm publish
         working-directory: ./build
