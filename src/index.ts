@@ -10,3 +10,4 @@ export * from './interfaces/seller.interface';
 export * from './cloudinary-upload';
 export * from './error-handler';
 export * from './gateway-middleware';
+export * from './logger';
